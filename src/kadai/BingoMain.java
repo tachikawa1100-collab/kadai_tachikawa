@@ -13,6 +13,7 @@ public class BingoMain {
 		int ballNum = 75;
 		
 		List <String> balls = new ArrayList<String>();
+		//ビンゴカードの各列用のボールリスト
 		List<List<String>> bingoCardBalls = new ArrayList<List<String>>();
 		
 		//各列用のボール格納先の準備
@@ -22,7 +23,7 @@ public class BingoMain {
 		}
 
 		
-		//boolsリストにボールを格納
+		//ballsリストにボールを格納
 		for(int i = 1;i <= ballNum;i++) {
 			//0埋めして桁数をそろえる
 			String bollStr = String.format("%02d", i);
