@@ -30,19 +30,14 @@ public class BingoMain {
 			
 			if(i <= 15) {
 				bingoCardBalls.get(0).add(bollStr);
-				//ballsCol1.add(bollStr);
 			}else if(16 <= i && i <= 30) {
 				bingoCardBalls.get(1).add(bollStr);
-				//ballsCol2.add(bollStr);
 			}else if(31 <= i && i <= 45) {
 				bingoCardBalls.get(2).add(bollStr);
-				//ballsCol3.add(bollStr);
 			}else if(46 <= i && i <= 60) {
 				bingoCardBalls.get(3).add(bollStr);
-				//ballsCol4.add(bollStr);
 			}else{
 				bingoCardBalls.get(4).add(bollStr);
-				//ballsCol5.add(bollStr);
 			}
 		}
 		//ボールをシャッフル
